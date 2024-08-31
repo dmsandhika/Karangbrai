@@ -16,6 +16,11 @@ export default {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        primary: '#04bd79',
+        hover : '#029660',
+        bdhover :'#018051',
+      },
     },
   },
   plugins: [

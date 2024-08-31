@@ -12,7 +12,7 @@
                 <p
                     class="text-justify text-sm text-gray-500  mt-2"
                 >
-                    Website Desa Jatijajar menyediakan informasi lengkap tentang
+                    Website Desa Karangbrai menyediakan informasi lengkap tentang
                     kegiatan, layanan, dan berita terbaru di desa. Dapatkan
                     akses mudah ke berbagai informasi yang berguna bagi warga
                     dan pengunjung.
@@ -28,11 +28,11 @@
                     <ul class="text-gray-600 ">
                         <li>
                             <a
-                                href="https://semarangkab.go.id/"
+                                href="https://pemalangkab.go.id/"
                                 target="blank"
                                 class="hover:underline"
                             >
-                                Kabupaten Semarang
+                                Kabupaten Pemalang
                             </a>
                         </li>
                         <li>
@@ -72,12 +72,12 @@
                     </h2>
                     <ul class="text-gray-600 ">
                         <li class="mb-4">
-                            <a href="https://www.termsfeed.com/live/63f9a3f8-e534-4ddf-8c53-79e126ad063a" class="hover:underline">
+                            <a href="#" class="hover:underline">
                                 Privacy Policy
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.termsfeed.com/live/daf7ffc9-1375-4c8e-bdbd-cfa010daacd6" class="hover:underline">
+                            <a href="#" class="hover:underline">
                                 Terms &amp; Conditions
                             </a>
                         </li>
@@ -93,7 +93,7 @@
                 class="text-sm text-gray-500 sm:text-center "
             >
                 © 2024
-                <a href="/" class="hover:underline">Desa Jatijajar</a>
+                <a href="/" class="hover:underline">Desa Karangbrai</a>
                 . All Rights Reserved.
             </span>
         </div>

@@ -4,13 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Desa Jatijajar</title>
+        <title>Desa Karangbrai</title>
         <link
             rel="icon"
             type="image/png"
-            href="https://i.ibb.co.com/nD5b5FF/Jatijajar.png"
+            href="img/logo.png"
         />
-        <script src="https://cdn.tailwindcss.com"></script>
+        @vite('resources/css/app.css', 'resource/js/app.js')
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         <script
             defer

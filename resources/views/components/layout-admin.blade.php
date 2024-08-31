@@ -12,7 +12,7 @@
         />
         <meta name="author" content="Dimas Andhika" />
         <meta name="description" content="" />
-        <script src="https://cdn.tailwindcss.com"></script>
+        @vite('resources/css/app.css', 'resource/js/app.js')
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         <script
             defer

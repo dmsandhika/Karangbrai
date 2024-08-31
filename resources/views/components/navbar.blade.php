@@ -1,11 +1,11 @@
-<nav class="bg-yellow-300" x-data="{ isOpen: false }">
+<nav class="bg-primary" x-data="{ isOpen: false }">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="flex-shrink-0">
             <a href="/">
 
-              <img class="h-10 w-10" src="https://i.ibb.co.com/nD5b5FF/Jatijajar.png" alt="Desa Jatijajar">
+              <img class="h-10 w-10" src="img/logo.png" alt="Desa Jatijajar">
             </a>
           </div>
           <div class="hidden md:block">
@@ -27,8 +27,8 @@
             <div class="relative ml-3">
                 <div>
                   @if(auth()->check())
-                    <a href="/admin" class="flex items-center cursor-pointer transition-all bg-yellow-500 text-white px-6 py-2 rounded-lg
-                                  border-yellow-600
+                    <a href="/admin" class="flex items-center cursor-pointer transition-all bg-hover text-white px-6 py-2 rounded-lg
+                                  border-bdhover
                                   border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
                                   active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
                       <span>
@@ -37,8 +37,8 @@
                     </a>
                   
                     @else
-                    <a href="/login" class="flex items-center cursor-pointer transition-all bg-yellow-500 text-white px-6 py-2 rounded-lg
-                    border-yellow-600
+                    <a href="/login" class="flex items-center cursor-pointer transition-all bg-hover text-white px-6 py-2 rounded-lg
+                    border-bdhover
                     border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
                     active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
                     <span>
@@ -59,7 +59,7 @@
         </div>
         <div class="-mr-2 flex md:hidden">
           <!-- Mobile menu button -->
-          <button type="button"  @click="isOpen = !isOpen" class="relative inline-flex items-center justify-center rounded-md bg-yellow-400 p-2 text-white hover:bg-yellow-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-yellow-600" aria-controls="mobile-menu" aria-expanded="false">
+          <button type="button"  @click="isOpen = !isOpen" class="relative inline-flex items-center justify-center rounded-md bg-primary p-2 text-white hover:bg-hover hover:text-white focus:outline-none focus:ring-2 focus:ring-bdhover focus:ring-offset-2 focus:ring-offset-bdhover" aria-controls="mobile-menu" aria-expanded="false">
             <span class="absolute -inset-0.5"></span>
             <span class="sr-only">Open main menu</span>
             <!-- Menu open: "hidden", Menu closed: "block" -->
@@ -85,19 +85,19 @@
         <x-nav-link-mob href="/surat" :active="request()-> is('surat*')">Layanan</x-nav-link-mob>
         <x-nav-link-mob href="/kontak" :active="request()-> is('kontak')">Kontak</x-nav-link-mob>
       </div>
-      <div class="border-t border-yellow-700 pb-3 pt-4">
+      <div class="border-t border-bdhover pb-3 pt-4">
         <div class="flex items-center px-5 w-full">
             <div class="w-full">
               @if (auth()->check())  
-              <a href="/" class="flex items-center justify-center w-full cursor-pointer transition-all bg-yellow-500 text-white px-6 py-2 rounded-lg
-                                border-yellow-600
+              <a href="/" class="flex items-center justify-center w-full cursor-pointer transition-all bg-hover text-white px-6 py-2 rounded-lg
+                                border-bdhover
                                 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
                                 active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
                 <span class="text-center">Dashboard</span>
               </a>
               @else  
-              <a href="/login" class="flex items-center justify-center w-full cursor-pointer transition-all bg-yellow-500 text-white px-6 py-2 rounded-lg
-                                border-yellow-600
+              <a href="/login" class="flex items-center justify-center w-full cursor-pointer transition-all bg-hover text-white px-6 py-2 rounded-lg
+                                border-bdhover
                                 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
                                 active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
                 <span class="text-center">Admin</span>

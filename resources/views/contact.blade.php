@@ -26,9 +26,9 @@
                         </svg>
                     </div>
                     <div class="ml-4">
-                        <a href="https://www.facebook.com/profile.php?id=61563239762258&locale=id_ID" target="_blank">
+                        <a href="" target="_blank">
                             <h3 class="text-lg font-medium">Facebook</h3>
-                            <p>Pemdes Jatijajar</p>
+                            <p>Desa Karangbrai</p>
                         </a>
                     </div>
                 </div>
@@ -41,9 +41,9 @@
                         </svg>
                     </div>
                     <div class="ml-4">
-                        <a href="https://www.instagram.com/pemdes_jatijajar" target="_blank">
+                        <a href="" target="_blank">
                             <h3 class="text-lg font-medium">Instagram</h3>
-                            <p>@pemdes_jatijajar</p>
+                            <p>@karangbrai</p>
                         </a>
                     </div>
                 </div>
@@ -55,9 +55,9 @@
                         </svg>
                     </div>
                     <div class="ml-4">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pemdesjatijajarbergas@gmail.com" target="_blank">
+                        <a href="" target="_blank">
                             <h3 class="text-lg font-medium">Email</h3>
-                            <p class="">pemdesjatijajarbergas@gmail.com</p>
+                            <p class="">karangbrai@gmail.com</p>
                         </a>
                     </div>
                 </div>

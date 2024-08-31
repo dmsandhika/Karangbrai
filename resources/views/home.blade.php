@@ -1,8 +1,8 @@
 <x-layout>
-    <section class="bg-yellow-300 text-white py-6 rounded-lg mb-2">
+    <section class="bg-primary text-white py-6 rounded-lg mb-2">
         <div class="container mx-auto text-center">
             <h1 class="text-4xl font-extrabold">
-                Selamat Datang di Website Desa Jatijajar
+                Selamat Datang di Website Desa Karangbrai
             </h1>
             <p class="text-lg mt-4">
                 Informasi Terkini dan Layanan Terbaik untuk Warga Desa
@@ -16,7 +16,7 @@
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                src="img/carousel/desa.jpg"
+                src="img/carousel/img.jpg"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 alt="Danau"
                 />
@@ -25,7 +25,7 @@
                 >
                     <div>
                         <h2 class="text-4xl font-bold">
-                            Desa Jatijajar
+                            Gambar 1
                         </h2>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                    src="img/carousel/wayang.jpg"
+                    src="img/carousel/img.jpg"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="Wayang"
                 />
@@ -42,14 +42,14 @@
                 >
                     <div>
                         <h2 class="text-4xl font-bold">
-                            Kirab Budaya Tahunan
+                            Gambar 2
                         </h2>
                     </div>
                 </div>
             </div>
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                    src="img/carousel/patung.jpg"
+                    src="img/carousel/img.jpg"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="Kuda"
                 />
@@ -58,7 +58,7 @@
                 >
                     <div>
                         <h2 class="text-4xl font-bold">
-                            Monumen Patung Punakawan
+                            Gambar 3
                         </h2>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                    src="img/carousel/alun-alun.jpg"
+                    src="img/carousel/img.jpg"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="Alun Alun"
                 />
@@ -77,14 +77,14 @@
                 >
                     <div>
                         <h2 class="text-4xl font-bold">
-                            Alun-Alun Mini Desa Jatijajar
+                            Gambar 4
                         </h2>
                     </div>
                 </div>
             </div>
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                    src="img/carousel/lapangan.jpg"
+                    src="img/carousel/img.jpg"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="Danau"
                 />
@@ -93,7 +93,7 @@
                 >
                     <div>
                         <h2 class="text-4xl font-bold">
-                            Lapangan Desa Jatijajar
+                            Gambar 5
                         </h2>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
         <svg
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
-            class="absolute blur z-10 fill-yellow-300 duration-500 group-hover:blur-none group-hover:scale-105"
+            class="absolute blur z-10 fill-primary duration-500 group-hover:blur-none group-hover:scale-105"
         >
             <rect x="25" y="50" width="150" height="100" />
         </svg>
@@ -223,7 +223,7 @@
         <svg
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
-            class="absolute blur z-10 fill-yellow-300 duration-500 group-hover:blur-none group-hover:scale-105"
+            class="absolute blur z-10 fill-primary duration-500 group-hover:blur-none group-hover:scale-105"
         >
             <rect x="25" y="50" width="150" height="100" />
         </svg>
@@ -245,7 +245,7 @@
         <svg
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
-            class="absolute blur z-10 fill-yellow-300 duration-500 group-hover:blur-none group-hover:scale-105"
+            class="absolute blur z-10 fill-primary duration-500 group-hover:blur-none group-hover:scale-105"
         >
             <rect x="25" y="50" width="150" height="100" />
         </svg>
@@ -263,7 +263,7 @@
         <svg
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
-            class="absolute blur z-10 fill-yellow-300 duration-500 group-hover:blur-none group-hover:scale-105"
+            class="absolute blur z-10 fill-primary duration-500 group-hover:blur-none group-hover:scale-105"
         >
             <rect x="25" y="50" width="150" height="100" />
         </svg>
@@ -310,7 +310,6 @@
         <img src="img/infografis.png" alt="Descriptive Image" class="w-full h-auto rounded-lg shadow-md">
     </div>
 </div>
-
 
 
 </x-layout>
