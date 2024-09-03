@@ -5,7 +5,7 @@
       "api/index.php": { "runtime": "vercel-php@0.6.0" }
   },
   "routes": [
-      { "src": "/build/(.*)", "dest": "/public/build/" },
+      { "src": "/build/(.*)", "dest": "/public/build/$1" },
       { "src": "/(.*)", "dest": "/api/index.php" }
   ],
   "public": true,
@@ -31,14 +31,5 @@
       "DB_DATABASE": "karangbrai_shallthank",
       "DB_USERNAME": "karangbrai_shallthank",
       "DB_PASSWORD": "2a77fec580b5ca93778c959cd6e2f715b159dcb7"
-  },
-    "builds": [
-    {
-      "src": "api/*.php",
-      "use": "@vercel/php",
-      "config": {
-        "installCommand": "apt-get update && apt-get install -y libssl1.0.0 libssl-dev && composer install"
-      }
-    }
-  ]
+  }
 }
