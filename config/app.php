@@ -123,10 +123,8 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
     'providers' => [
-    // Other Service Providers...
     Illuminate\View\ViewServiceProvider::class,
-    // Other Service Providers...
-],
+    ],
 
 
 ];
