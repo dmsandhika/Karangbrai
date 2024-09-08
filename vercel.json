@@ -9,11 +9,11 @@
   "routes": [
     {
       "src": "/build/(.*)",
-      "dest": "/public/build/$1"
+      "dest": "public/build/"
     },
     {
       "src": "/(.*)",
-      "dest": "/api/index.php"
+      "dest": "api/index.php"
     }
   ],
   "public": true,
